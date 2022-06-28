@@ -1,0 +1,30 @@
+---
+title: Prepare9
+version: 1.0.0 
+description: "Preparing the custom dataset for training"
+icon: python 
+
+author: "cnvrg"
+author_email: "libhub@cnvrg.io"
+
+
+tags:
+  - training
+
+command: python3 prepare_data.py
+
+requirements:
+  cpu: 3.5
+  memory: 8
+  gpu: 0
+  hpu: 0
+
+image: python:3.8.6
+
+language: python3
+
+arguments:
+  - key: data_source
+    type: 'categorical'
+    values:
+        - '/data/qna_trivia_data/traintriviafiltered.json'

@@ -1,0 +1,34 @@
+---
+title: Train9 
+version: 1.0.0 
+description: "Training the model on the custom dataset."
+icon: python 
+
+author: "cnvrg"
+author_email: "libhub@cnvrg.io"
+
+
+tags:
+  - training
+
+command: python3 run_qg.py
+
+requirements:
+  cpu: 3.5
+  memory: 8
+  gpu: 0
+  hpu: 0
+
+image: python:3.8.6
+
+language: python3
+
+arguments:
+  - key: num_train_epochs
+    type: 'categorical'
+    values: 
+        - '10'
+  - key: output_dir
+    type: 'categorical'
+    values: 
+        - 't5-small-qg-hl'
