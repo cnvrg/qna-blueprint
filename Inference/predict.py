@@ -60,7 +60,7 @@ def predict(data):
             encoded_input = tokenizer(input_text) #convert it into tokens again
         else:
             process.append(breakup) #if full stop not found add the entire text to the list
-            input_text = input_text[512:] #take the remaining raw text
+            input_text = input_text[len(breakup):] #take the remaining raw text
             encoded_input = tokenizer(input_text) #convert it into tokens again
 
     for textblock in process: #for each piece of raw text generating at max 512 token size generate QnA pairs.
