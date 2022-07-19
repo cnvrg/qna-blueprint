@@ -14,4 +14,4 @@ zipp==3.6.0
 transformers==3.0.0
 nlp==0.2.0
 PyMuPDF==1.16.7
-beautifulsoup4
+beautifulsoup4==4.11.1

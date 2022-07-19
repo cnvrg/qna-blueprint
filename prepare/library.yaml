@@ -1,7 +1,7 @@
 ---
-title: Train9 
+title: Prepare
 version: 1.0.0 
-description: "Training the model on the custom dataset."
+description: "Preparing the custom dataset for training"
 icon: python 
 
 author: "cnvrg"
@@ -11,7 +11,7 @@ author_email: "libhub@cnvrg.io"
 tags:
   - training
 
-command: python3 run_qg.py
+command: python3 prepare_data.py
 
 requirements:
   cpu: 3.5
@@ -24,11 +24,7 @@ image: python:3.8.6
 language: python3
 
 arguments:
-  - key: num_train_epochs
+  - key: data_source
     type: 'categorical'
-    values: 
-        - '10'
-  - key: output_dir
-    type: 'categorical'
-    values: 
-        - 't5-small-qg-hl'
+    values:
+        - '/data/qna_trivia_data/traintriviafiltered.json'
