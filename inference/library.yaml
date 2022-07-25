@@ -1,5 +1,5 @@
 ---
-title: Inference
+title: QnA Inference
 version: 1.0.0
 description: "Library to deploy the QnA generator capable of generating QnAs from input text"
 icon: python

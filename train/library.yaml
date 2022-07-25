@@ -1,5 +1,5 @@
 ---
-title: Train
+title: QnA Train
 version: 1.0.0 
 description: "Training the model on the custom dataset."
 icon: python 

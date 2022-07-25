@@ -62,7 +62,7 @@ tasks:
 
     type: exec
 
-    library: prepare
+    library: qna-prepare
     library_version: 1.0.0
 
     command: python3 prepare_data.py
@@ -89,7 +89,7 @@ tasks:
 
     type: exec
 
-    library: train
+    library: qna-train
     library_version: 1.0.0
 
     command: python3 run_qg.py
@@ -120,7 +120,7 @@ tasks:
 
     type: deploy
 
-    library: inference
+    library: qna-inference
     library_version: 1.0.0
 
     kind: webservice
