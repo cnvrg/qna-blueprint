@@ -54,7 +54,7 @@ tasks:
       - key: prefix
         type: 'categorical'
         values:
-          - 'text_detection_data/'
+          - 'qna_data/'
           
   - title: Prepare
     top: 100
@@ -80,7 +80,7 @@ tasks:
         - key: data_source
           type: 'categorical'
           values: 
-              - '/data/qna_trivia_data/traintriviafiltered.json'
+              - '/input/s3_connector/qna_data/trainfiltered.json'
 
           
   - title: Train
