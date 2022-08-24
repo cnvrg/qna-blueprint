@@ -227,7 +227,7 @@ def main(args_file=None):
     
     with open(cnvrg_workdir+'/name.txt','w') as f:
         f.write(training_args.output_dir)
-    training_args.output_dir=cnvrg_workdir+training_args.output_dir
+    training_args.output_dir=cnvrg_workdir+"/"+training_args.output_dir
     training_args.per_device_train_batch_size=8
     training_args.per_device_eval_batch_size=8
     training_args.gradient_accumulation_steps=8
