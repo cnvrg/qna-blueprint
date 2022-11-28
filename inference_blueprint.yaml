@@ -1,8 +1,8 @@
 ---
 title: QnA-Inference
 version: 1.0.0
-description: "Library to deploy the QnA generator capable of generating QnAs from input text"
-long_description: "The endpoint will take a long text as input and as output will share a list of questions and answers generated in pair from the input text."
+description: "Generate output question and answer (QnA) pairs for long input text"
+long_description: "Generate output question and answer (QnA) pairs for long input text using a pretrained QnA-generator model and a custom dataset."
 author: "cnvrg"
 author_email: "libhub@cnvrg.io"
 
