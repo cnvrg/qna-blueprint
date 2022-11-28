@@ -1,8 +1,8 @@
 ---
 title: QnA Training
 version: 1.0.0 
-description: "Training the QnA on a custom dataset and deploying it"
-long_description: "Training on custom dataset provided in SQUAD format. The dataset is split into train and val datasets and converted to pytorch format. Then after training an endpoint is deployed for inference using the trained model."
+description: "Retrain a question and answer (QnA) generator that returns QnA pairs for input text"
+long_description: "Retrain a question and answer (QnA) generator to enhance its performance using a SQuAD-formatted dataset, and deploy an endpoint, which returns QnA pairs for input text."
 
 author: "cnvrg"
 author_email: "libhub@cnvrg.io"
