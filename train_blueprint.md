@@ -6,3 +6,5 @@ You can retrain the QnA model to enhance its' performance if you have an extensi
 4. You can now use the `Try it Live` section with any text or link once the endpoint is deployed after training. 
 5. You can now integrate your API with your code using the integration panel at the bottom of the page
 6. You will now have a functioning API endpoint that returns Questions and answers for the input text.
+
+[See here how we created this blueprint](https://github.com/cnvrg/qna-blueprint)

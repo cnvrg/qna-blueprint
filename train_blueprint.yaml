@@ -143,9 +143,9 @@ tasks:
     prep_file: '' 
     prep_function: '' 
     input_example:
-      img: text
+      context: text
     input_schema:
-      img: text
+      context: text
     output_schema: {}
       
 relations:
